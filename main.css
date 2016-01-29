@@ -1,6 +1,6 @@
 body {
 	margin: 0px;
-	padding 0px;
+	padding: 0px;
 }
 
  div { 
@@ -11,19 +11,29 @@ body {
 
 .uno { 
 	background-color: #ee3e64;
-	position: relative;
-	left: 150px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
 
 }
 
 .dos { 
 	background-color: turquoise;
-	position: relative;
-	left: 200px;
+	position: absolute;
+	right: 0px;
+	top: 0px;
 }
 
 .tres { 
 	background-color: #b7d84b;
-	position: static;
-	margin-left: 150px;
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+}
+
+.cuatro {
+	background-color: #000800;
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
 }
