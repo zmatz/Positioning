@@ -6,12 +6,17 @@ body {
  div { 
 	width: 200px;
 	height: 200px;
+	margin: 0px;
 	}
 
+ p {
+ 	font-size: 50px;
+ 	margin: 50px;
+ }
 
 .uno { 
 	background-color: #ee3e64;
-	position: absolute;
+	position: static;
 	left: 0px;
 	top: 0px;
 
@@ -19,21 +24,21 @@ body {
 
 .dos { 
 	background-color: turquoise;
-	position: absolute;
-	right: 0px;
+	position: static;
+	right: 200px;
 	top: 0px;
 }
 
 .tres { 
 	background-color: #b7d84b;
 	position: absolute;
-	left: 0px;
-	bottom: 0px;
+	left: 200px;
+	bottom: 155px;
 }
 
 .cuatro {
-	background-color: #000800;
-	position: absolute;
+	background-color: #0508ff;
+	position: static;
 	right: 0px;
 	bottom: 0px;
 }
